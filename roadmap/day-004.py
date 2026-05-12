@@ -18,7 +18,7 @@ def mul_numbers(a,b):
     return a*b
 def div_numbers(a,b):
     if b == 0:
-        print("invalid")
+        return "Invalid"
     else:
         return a/b
 
@@ -30,7 +30,17 @@ sub = sub_numbers(a,b)
 mul = mul_numbers(a,b)
 div = div_numbers(a,b)
 
-print("sum = ",add)
-print ("diff =",sub)
-print ("product =",mul)
-print("division = ",div)
+print("----select option----")
+choice  = int(input("select the option"))
+
+
+if choice ==1:
+    print("sum = ",add)
+elif choice ==2:    
+    print ("diff =",sub)
+elif choice == 3:
+    print ("product =",mul)
+elif choice == 4 :
+    print("division = ",div)
+else:
+    print("invalid option")        
