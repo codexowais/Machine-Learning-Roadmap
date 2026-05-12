@@ -10,3 +10,27 @@
 #
 
 # Code here
+def add_numbers(a,b):
+    return a+b
+def sub_numbers(a,b):
+    return a-b
+def mul_numbers(a,b):
+    return a*b
+def div_numbers(a,b):
+    if b == 0:
+        print("invalid")
+    else:
+        return a/b
+
+a = int(input("Enter a:"))
+b = int(input("Enter b:"))
+
+add  = add_numbers(a,b)
+sub = sub_numbers(a,b)
+mul = mul_numbers(a,b)
+div = div_numbers(a,b)
+
+print("sum = ",add)
+print ("diff =",sub)
+print ("product =",mul)
+print("division = ",div)
