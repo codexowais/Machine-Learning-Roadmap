@@ -31,7 +31,7 @@ mul = mul_numbers(a,b)
 div = div_numbers(a,b)
 
 print("----select option----")
-choice  = int(input("select the option"))
+choice  = int(input("select the option:"))
 
 
 if choice ==1:

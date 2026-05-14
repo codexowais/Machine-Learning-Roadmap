@@ -10,3 +10,9 @@
 #
 
 # Code here
+name = input("Enter your name")
+marks = {}
+for i in range(5):
+    marks.add
+
+
