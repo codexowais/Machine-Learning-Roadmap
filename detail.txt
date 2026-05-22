@@ -1,0 +1,6 @@
+Hello OwaisHello Owais
+Hello Owais
+Student:owais
+Average:229.0
+Grade:A
+------------------------
