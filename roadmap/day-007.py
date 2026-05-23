@@ -10,3 +10,22 @@
 #
 
 # Code here
+import csv
+
+with open("students.csv", "r") as file:
+
+    reader = csv.reader(file)
+
+    next(reader)
+
+    for row in reader:
+
+        name = row[0]
+
+        maths = int(row[1])
+        english = int(row[2])
+        dsa = int(row[3])
+
+        average = (maths + english + dsa) / 3
+
+        print(f"{name} → Average: {average}")
