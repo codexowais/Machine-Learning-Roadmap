@@ -10,3 +10,5 @@
 #
 
 # Code here
+# See calculator_utils.py for reusable functions.
+# See run_calculator.py for the main program that imports and uses them.
