@@ -10,3 +10,12 @@
 #
 
 # Code here
+
+numbers = [1,5,9,-7,10,-6,-2,0,5]
+positive_squared = []
+
+for number in numbers:
+    if number>0:
+        positive_squared.append(number**2)
+
+print (positive_squared)        
