@@ -1,0 +1,4 @@
+| Error     | Cause            | Fix              |
+| --------- | ---------------- | ---------------- |
+| NameError | variable missing | defined variable |
+| TypeError | string + int     | converted type   |
