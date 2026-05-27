@@ -10,3 +10,35 @@
 #
 
 # Code here
+
+expenses = [
+    {
+    "category":"food",
+    "amount":500
+},
+
+{
+    "category":"transport",
+    "amount":1000
+},
+{
+
+    "category":"internet",
+    "amount":349
+}
+
+]
+
+def add_expense():
+    category = input("Select the category: ")
+    amount = int(input("Enter the amount: "))
+
+    expense = {
+        "category":category,
+        "amount": amount
+    }
+
+    expenses.append(expense)
+
+    print("\nExpense Added Successfully")
+    print(expense)

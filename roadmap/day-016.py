@@ -10,3 +10,15 @@
 #
 
 # Code here
+import numpy as np
+
+marks = np.array([90,85,78,92,88])
+
+print("Array",marks)
+print ("Shape:",marks.shape)
+print("Dimensions:",marks.ndim)
+print("First value:",marks[0])
+print("slice:",marks[1:4])
+print("Minimum:",marks.min())
+print("Maximum:",marks.max())
+print("Mean:",marks.mean())
