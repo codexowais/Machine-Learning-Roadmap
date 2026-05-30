@@ -10,3 +10,16 @@
 #
 
 # Code here
+import numpy as np
+
+temperatures = np.array([22, 35, 40, 18, 30, 45, 28])
+
+temp_above30 = temperatures[temperatures > 30]
+temp_below25 = temperatures[temperatures < 25]
+in_between = temperatures[(temperatures > 20) & (temperatures < 40)]
+temps_above30 = temperatures[temperatures>30]
+
+print(temp_above30)
+print(temp_below25)
+print(in_between)
+print(temps_above30)
