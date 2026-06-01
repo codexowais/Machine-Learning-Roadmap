@@ -10,6 +10,22 @@
 #
 
 # Code here
-import random
 import numpy as np
+np.random.seed(42)
 
+# dice_roll = np.random.randint(1,7,size = 100)
+
+# for face in range(1,7):
+#     count = np.sum(dice_roll == face)
+#     print(f"Face {face}:{count}")
+
+
+coin_tosses = np.random.choice(
+    ["Heads", "Tails"],
+    size=50
+)
+
+unique, counts = np.unique(coin_tosses, return_counts=True)
+
+print(unique)
+print(counts)
