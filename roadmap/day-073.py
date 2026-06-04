@@ -2,6 +2,9 @@
 #
 # Learn: loss, error, learning rate, gradient descent intuition.
 #
+# Math checkpoint (Required): learn slope and derivative intuition, then see
+# gradients as directions for changing weights to reduce a loss function.
+#
 # Practice: manually update a simple weight to reduce error.
 #
 # Output: show loss decreasing across iterations.

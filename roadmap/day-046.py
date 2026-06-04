@@ -2,6 +2,9 @@
 #
 # Learn: coefficients, intercept, assumptions, residuals.
 #
+# Math checkpoint (Required): deepen linear regression with coefficients,
+# residuals, least-squares intuition, correlation, and basic matrix notation.
+#
 # Practice: inspect coefficients from a regression model.
 #
 # Output: explain which features increase or decrease predictions.

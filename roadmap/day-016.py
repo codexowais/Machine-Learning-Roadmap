@@ -2,6 +2,9 @@
 #
 # Learn: arrays, shapes, dimensions, indexing, slicing.
 #
+# Math checkpoint (Required foundation): learn vectors, matrices, dimensions,
+# rows, and columns. NumPy arrays are how ML stores numerical data.
+#
 # Practice: create arrays for marks, prices, and temperatures.
 #
 # Output: calculate min, max, mean, and selected slices using NumPy.

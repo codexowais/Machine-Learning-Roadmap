@@ -2,6 +2,9 @@
 #
 # Learn: random numbers, seeds, random samples, simple simulations.
 #
+# Math checkpoint (Required foundation): learn basic probability, outcomes,
+# frequency, samples, and why randomness appears in ML experiments.
+#
 # Practice: simulate 100 dice rolls and count results.
 #
 # Output: print frequency of each dice face.

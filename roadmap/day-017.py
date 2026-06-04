@@ -2,6 +2,9 @@
 #
 # Learn: vectorized operations, broadcasting, element-wise math.
 #
+# Math checkpoint (Required foundation): revise scalar vs vector operations
+# and element-wise addition, subtraction, multiplication, and division.
+#
 # Practice: convert Celsius to Fahrenheit for an array of temperatures.
 #
 # Output: compare loop-based and NumPy-based calculations.
