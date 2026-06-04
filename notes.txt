@@ -1,0 +1,10 @@
+
+Python is widely used in machine learning.
+
+AWS provides cloud computing services.
+
+Vector databases store embeddings.
+
+Cricket is a popular sport in India.
+
+RAG combines retrieval and generation.
